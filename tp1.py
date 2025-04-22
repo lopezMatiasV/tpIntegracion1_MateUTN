@@ -8,7 +8,7 @@ def convertirDecimal(numero): # creamos la funcion que conviente de decimal a bi
     binario = "" # creamos un string vacio para ir guardando el numero en binario
     while numero > 0: # usamos un ciclo while que tiene como condicion que el numero ingresado sea mayor a 0
         residuo = numero % 2 # guardamos el residuo de numero dividido 2
-        binario = str(residuo) + binario # en binario vamos guardando en cada iteracion el vamor del residuo en forma de string
+        binario = str(residuo) + binario # en binario vamos guardando en cada iteracion el valor del residuo en forma de string
         numero //= 2 # guardamos el resultado de la division entera en numero para poder reiniciar el ciclo
     return binario # Fin de la función que convierte de decimal a binario
 
