@@ -10,8 +10,6 @@ def Menu():
     print("2 - Convertir un número binario a decimal.")
     opt = input("Escoga una opción: ")
 
-    print("opt ", opt)
-
     while opt != '1' and opt != '2': # Se evalúa que la opción sea válida. Si no es así se continúa pidiendo una opción válida
         opt = input("Por favor escoga una opción válida: ")
 
@@ -19,10 +17,7 @@ def Menu():
 
 def ValidarBinario(x):
     for i in range(len(x)):
-        # if x[i] != '1' and x[i] != '0':
-        #     print("Tu número no es binario!!")
-        #     while 
-        #     print("Por favor ingrese un número válido: ")
+
         while x[i] != '1' and x[i] != '0':
             x = input("Por favor ingrese un número binario válido: ")
     
@@ -69,6 +64,5 @@ elif opt == '2':
     userOption = input("Ingrese un número binario que quiera convertir a decimal: ")
     userOption = ValidarBinario(userOption)
     print(ConvertirBinario(userOption))
-    # print(ConvertirBinario(input("Ingrese un número binario que quiera convertir en decimal: ")))
 
 
