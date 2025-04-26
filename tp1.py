@@ -17,6 +17,17 @@ def Menu():
 
     return opt
 
+def ValidarBinario(x):
+    for i in range(len(x)):
+        # if x[i] != '1' and x[i] != '0':
+        #     print("Tu número no es binario!!")
+        #     while 
+        #     print("Por favor ingrese un número válido: ")
+        while x[i] != '1' and x[i] != '0':
+            x = input("Por favor ingrese un número binario válido: ")
+    
+    return x
+
 def ConvertirDecimal(numero): # Creamos la función que convierte de decimal a binario
     if numero == 0: 
         return "0" # Si el número ingresado es 0, en binario también es 0
@@ -45,14 +56,19 @@ def ConvertirBinario(number): # Creamos la función que convierte un número bin
 
 
 print("Bienvenido usuario!!")
-print("Software convertidor binario a decimal - decimal a binario")
+print("Software convertidor decimal a binario - binario a decimal")
 
 opt = Menu() # Se llama a la función Menu y su valor se guarda en la variable opt
+
+userOption = ''
 
 # Se evalúa la variable opt según los requerimientos del usuario
 if opt == '1':
     print(ConvertirDecimal(int(input("Ingrese un número decimal que quiera convertir en binario: "))))
 elif opt == '2':
-    print(ConvertirBinario(input("Ingrese un número binario que quiera convertir en decimal: ")))
+    userOption = input("Ingrese un número binario que quiera convertir a decimal: ")
+    userOption = ValidarBinario(userOption)
+    print(ConvertirBinario(userOption))
+    # print(ConvertirBinario(input("Ingrese un número binario que quiera convertir en decimal: ")))
 
 
