@@ -15,3 +15,7 @@ lanzará un advertencia forzando al usuario a ingresar un número binario. Esto 
 Se utiliza un ciclo for para iterar sobre la cadena proporcionada y determinar si contiene números diferentes de 1 y 0, si no es así, el programa continúa sin entrar al bucle while y retornando el valor del parámetro x.
 
 * Función ConvertirDecimal:
+
+* Función ConvertirBinario: Decidimos dejar que Chat GPT lea nuestra función e interprete nuestro código, acción que ejecutó perfectamente.
+
+* Finalmente damos la bienvenida al usuario e invocamos a la función Menu, se evalúa el retorno de esta y es utilizada una estructura condicinal para llamar la función ConvertirDecimal o ConvertirBinario según las necesidades del usuario. 

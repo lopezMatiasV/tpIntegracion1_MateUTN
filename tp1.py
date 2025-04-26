@@ -59,10 +59,10 @@ userOption = ''
 
 # Se evalúa la variable opt según los requerimientos del usuario
 if opt == '1':
-    print(ConvertirDecimal(int(input("Ingrese un número decimal que quiera convertir en binario: "))))
+    print('Su equivalente binario es: ', ConvertirDecimal(int(input("Ingrese un número decimal que quiera convertir en binario: "))))
 elif opt == '2':
     userOption = input("Ingrese un número binario que quiera convertir a decimal: ")
     userOption = ValidarBinario(userOption)
-    print(ConvertirBinario(userOption))
+    print('Su equivalente decimal es: ', ConvertirBinario(userOption))
 
 
