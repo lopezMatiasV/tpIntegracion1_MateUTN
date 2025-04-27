@@ -1,8 +1,9 @@
 # Ejercicio para la semana de integración 1 de la materia de Matemáticas, para el curso de programación de UTN.
-## Siguiendo las pautas de trabajo propuestas, se desarrolló un programa en python que conviente el número decimal propuesto por el usuario al número binario correspondiente.
+## Siguiendo las pautas de trabajo propuestas, se desarrolló un programa en python que conviente el número decimal propuesto por el usuario al número binario correspondiente. Dicha aplicación también hace lo opuesto, convierte un número binario a decimal. Se utilizó lo visto hasta ahora en la materia de programación, como bucles, condicionales y funciones. También se crearon validaciones para que siempre el usuario ingrese opciones validas y no genere un error en dicho programa. 
 
 
 ## Link del video: 
+* https://youtu.be/A_FG3ShE9jw
 * Integrantes del grupo: Matías Facundo Herrera, Matías Vicente Lopez
 
 # Explicación del funcionamiento del código:
